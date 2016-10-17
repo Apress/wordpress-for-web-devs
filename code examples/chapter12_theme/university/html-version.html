@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>The University</title>
+
+<meta name="description" content="A description of the site" />
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen,projection" />
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div id="header" class="section"> 
+		<h1 class="header"> <a href="/">The University</a> </h1>
+	</div>
+
+	<div id="nav-top">
+		<ul class="nav">
+			<li class="page_item page-item-48"><a href="http://wp/about/">About</a></li>
+			<li class="page_item page-item-52"><a href="http://wp/courses/">Courses</a></li>
+			<li class="page_item page-item-50"><a href="http://wp/faculty/">Faculty</a>
+				<ul class='children'>
+					<li class="page_item page-item-61"><a href="http://wp/faculty/adjunct-faculty/">Adjunct Faculty</a></li>
+					<li class="page_item page-item-57"><a href="http://wp/faculty/literature/">Literature</a></li>
+					<li class="page_item page-item-59"><a href="http://wp/faculty/rhetoric/">Rhetoric</a></li>
+				</ul>
+			</li>
+			<li class="page_item page-item-54"><a href="http://wp/hours-and-location/">Hours and Location</a></li>
+		</ul>
+	</div>
+		
+<div id="content" class="section">
+	
+	<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+
+	    <h2><a href="#" >Post Title</a></h2>     
+	 	<p class="postmetadata before">Posted by <a href="#">Stephanie</a></p>
+	
+		<p>This would be the post content.</p>
+
+	</div> <!-- #post-n -->
+	
+</div> <!-- #content -->
+
+<div id="sidebar" class="section">
+	<div class="widget">
+		<h3>Sidebar</h3>
+		<p>Some useful ancillary information goes here.</p>
+	</div> 
+</div>
+
+<div id="footer" class="section">
+	<p class="copyright">&copy; 2013 The University</p>
+	<div class="contact"><p>P.O. Box 1111, College Town, MD</p></div>
+</div>
+
+</body>
+</html>

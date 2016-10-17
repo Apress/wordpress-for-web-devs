@@ -1,0 +1,163 @@
+/*
+#slideshow {
+	position: relative;
+}
+
+#slideshow ul {
+  list-style: none;
+}
+
+#slideshow li {
+	float: left;
+	overflow: hidden;
+	margin: 0 20px 0 0;
+	
+}
+
+#slideshow li a {
+	color: #222;
+	text-decoration: none;
+	font: 15px/1 Helvetica, sans-serif;
+	
+	-webkit-transition: color 0.5s ease;
+	   -moz-transition: color 0.5s ease;
+	     -o-transition: color 0.5s ease;
+	    -ms-transition: color 0.5s ease;
+	        transition: color 0.5s ease;
+}
+
+#slideshow li a:hover {
+	color: #50b0df;
+}
+
+#slideshow li img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: -1;
+  
+  -webkit-transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+       -o-transition: opacity 1s ease-in-out;
+      -ms-transition: opacity 1s ease-in-out;
+          transition: opacity 1s ease-in-out;
+
+}
+
+#slideshow li img:target {
+	z-index: 1;
+}
+
+#slideshow li img:not(:target) {
+	opacity: 0;
+}
+/**/
+
+/* Slides.js  */
+
+  #slides {
+    display: none
+  }
+
+  #slides .slidesjs-navigation {
+    margin-top:3px;
+  }
+
+  #slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+  }
+
+  #slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+  }
+
+  .slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+  }
+
+  .slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+  }
+
+  .slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    float: left;
+    overflow: hidden;
+  }
+
+  #slides a:link,
+  #slides a:visited {
+    color: #333
+  }
+
+  #slides a:hover,
+  #slides a:active {
+    color: #9e2020
+  }
+
+ .caption {
+	 z-index: 500;
+	 display: block!important;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 height: 30px;
+	 padding: 5px 3% 0 3%;
+	 background: #000;
+	 background: rgba(0,0,0,.5);
+	 width: 94%;
+	 font-size: 1.3em;
+	 line-height: 1.33;
+	 color: #fff;
+	 border-top: 1px solid #000;
+	 text-shadow: none;
+}
+
+
+
+
+  #slides {
+    display: none
+  }
+
+  .container {
+    margin: 0 auto
+  }
+
+  @media (max-width: 767px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container {
+      width: auto
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      width: auto
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 979px) {
+    .container {
+      width: 724px
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px
+    }
+  }
+
+/**/
